@@ -20,11 +20,12 @@ body{
 .header-item >li >a{
     padding:0.5em 2em;
     text-decoration: none;
-    color: rgb(109, 31, 235);
+    color: blue;
 }
 
 .home{
-    padding-top: 70px;  
+    background-color: rgb(216, 216, 221);;
+    padding-top: 80px; 
     display: flex;
     width: 100%;
     align-items: center;
@@ -43,25 +44,21 @@ body{
 .about {
     background-color: rgb(216, 216, 221);
     text-align: center;
+    padding: 0.5em;
 }
-.about-me{
-    text-align: center;
-}
+
 .about-heading{
     text-align: center;
-    padding:0.8em;
+    padding: 0.5em;
+    background-color: burlywood;
 }
-.about-info{
-    text-align: center;
-}
+
 .about-name-head{
     font-weight: bold;
 }
 .skills, 
-.hobbies{
-    border: 5px solid black;
-    border-radius: 1px solid red;
-    padding: 0.5px;
+.hobbies{  
+    
     list-style-type: none;
     flex-wrap: wrap;
     align-items: center;
@@ -69,47 +66,50 @@ body{
 
 }
 .skills > li
-.hobbies > li{
-     
+.hobbies > li{     
      width: 15%;
      padding: 1em;
      background-color: white;
      margin: 2em;
+     text-align: center;
 }
 .goal{
     text-align: center;
-    padding-bottom: 2em;
+    padding: 0.5em 15em;
+    margin: 1em;
+    font-size: 22px;
 }
 .contact{
+    background-color: rgb(216, 216, 221);
     display: flex;
-    padding: 0.5em;
-    margin: 1em;
 }
 
 .contact-item{
-    width: 40%;
-    margin: auto;
-}
 
-.projects{
-    text-align: center;
-    background-color: rgb(216, 216, 221);
-    padding: 2em;
-    border: 3px solid black;
-}
-.projects > h1{
-    text-align: center;
-    padding-top: 1em;
-   
-}
-.projects-container{
-    display: flex;
-    
-}
-.projects-item{
     width: 40%;
-    margin: auto;
-    padding: 1.5em;
-    background-color: white;
+    margin: 1em;
+    padding: 1em;
     border-radius: 0.5em;
+    background-color: white;
+}
+.project{
+    background-color:rgb(216, 216, 221);
+    padding-top: 1px;
+}
+.project > h1{
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.3em;
+    background-color: burlywood;
+
+}
+.project-container{
+    display:flex;
+}
+.project-item{
+    width: 40%;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 0.5em;
+    background-color: white;
 }
